@@ -7,7 +7,7 @@
 hysplit_dispersion(lat = 49.263, lon = -123.25, height = 50,
   start_day = "2015-07-01", start_hour = 0, duration = 24,
   direction = "forward", met_type = "reanalysis", vert_motion = 0,
-  model_height = 20000, particle_num = 2500, particle_max = 10000,
+  model_height = 20000, particle_num = 10, particle_max = 10000,
   species, disp_name = NULL, binary_path = NULL, exec_dir = NULL,
   met_dir = NULL, clean_up = TRUE)
 }
